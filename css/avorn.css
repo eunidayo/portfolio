@@ -19,6 +19,7 @@
 }
 
 .material-symbols-outlined {
+  display: none;
   font-variation-settings:
     'FILL' 0,
     'wght' 600,
@@ -42,16 +43,17 @@ header {
   gap: 10px;
   position: relative;
 }
+
 header .headerinner {
   display: flex;
-  gap: 800px;
+  gap: 750px;
   justify-content: center;
   align-items: center;
   /* width: 100%; */
 
 }
 header a.logo {
-  background: url(/practice/image/avorn/pc.logo.webp)50% 50% no-repeat;
+  background: url(/portfolio/image/avorn/header/avornlogo.png)50% 50% no-repeat;
   width: 293px;
   height: 102px;
   /* flex-shrink: 0; */

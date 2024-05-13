@@ -18,15 +18,11 @@ header .headerinner {
   gap: 450px;
 }
 
-
 .material-symbols-outlined {
   font-size: 50px
 }
 .menu {
   padding: 0;
-}
-header span {
-  display: none;
 }
 
 /* sec01*/
