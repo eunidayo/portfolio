@@ -33,7 +33,7 @@
 }
 /* header */
 header {
-  justify-content: center;
+  /* justify-content: center; */
   display: flex;
   padding: 21px;
   flex-direction: column;
@@ -51,11 +51,8 @@ header .headerinner {
   /* width: 100%; */
 }
 
-
-
-
 header a.logo {
-  background: url(/portfolio/image/avorn/header/avornlogo.png)50% 50% no-repeat;
+  background: url(/portfolio/clone/avorn/images/header/avornlogo.png)50% 50% no-repeat;
   width: 293px;
   height: 102px;
   /* flex-shrink: 0; */

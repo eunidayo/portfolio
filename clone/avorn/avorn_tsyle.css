@@ -7,10 +7,11 @@ body {
   outline: 1px solid greenyellow;
 }
 header {
-  /* min-width: 747px; */
-  /* width: 100%; */
+ min-width: 744px;
   height: 104px;
   padding: 20px 23px;
+  align-items: flex-start;
+
 }
 header .headerinner {
   width: 697px;
@@ -19,10 +20,12 @@ header .headerinner {
 }
 
 .material-symbols-outlined {
+  display: block;
   font-size: 50px
 }
 .menu {
   padding: 0;
+  display: none;
 }
 
 /* sec01*/
