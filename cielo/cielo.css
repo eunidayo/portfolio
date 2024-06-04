@@ -110,6 +110,65 @@ header .submenu03 span {
 
 
 
+
+
+
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+.menu li {
+  padding: 5px 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+/* Style the sub-menu */
+.sub_menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+.sub_menu li {
+  padding: 5px 0;
+}
+
+.sub_menu a {
+  color: #333;
+}
+
+.sub_menu a:hover {
+  color: #000;
+}
+
+/* Show sub-menu on hover */
+.menu li:hover .sub_menu {
+  display: block;
+}
+
+
+
+
+
+
 /* main */
 /* sec01 */
 html,
@@ -346,3 +405,9 @@ flex-direction: row;
 /* space-between
 justify-content: space-between;
 - > width: 100%; */
+
+
+
+
+
+
