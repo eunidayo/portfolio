@@ -43,14 +43,9 @@ var swiper = new Swiper(".sec02mySwiper", {
 
 
 
-// ico_menu.addEventListener("click", () => {
-//   document.
-// });
-
-
-
-
-
+ico_menu.addEventListener("click", () => {
+  document.
+});
 
 
 document.addEventListener("DOMContentLoaded", function () {
