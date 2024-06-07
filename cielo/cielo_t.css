@@ -15,7 +15,32 @@ header .submenu {
   gap: 10px;
   font-size: 0.5rem;
 }
+.menu li {
+  padding: 5px 13px;
+}
 .submenu02 a {
   gap: 25px;
   font-size: 0.75rem;
+}
+.sec02,
+.sec03,
+.sec04,
+.sec05 {
+  /* width: 100%; */
+  /* display: flex; */
+  padding: 0 10px 0;
+}
+
+.explan01:last-child {
+  display: none;
+}
+
+#footer {
+  padding: 80px 20px 50px 20px;
+}
+
+
+.footfirst,
+.foot02 .foot02left {
+  font-size: 0.8125rem;
 }

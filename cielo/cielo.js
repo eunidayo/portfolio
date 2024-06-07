@@ -18,14 +18,14 @@ var swiper = new Swiper(".mySwiper", {
 
 // sec02
 var swiper = new Swiper(".sec02mySwiper", {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 50,
   breakpoints: {
-    430: {
+    800: {
       slidesPerView: 3,
       spaceBetween: 50,
     },
-    1200: {
+    1020: {
       slidesPerView: 3,
       spaceBetween: 100,
     },
@@ -43,35 +43,44 @@ var swiper = new Swiper(".sec02mySwiper", {
 
 
 
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const tabs = document.querySelectorAll('.tab');
-//   const tabContents = document.querySelectorAll('.tab-content');
-
-//   tabs.forEach(tab => {
-//     tab.addEventListener('click', () => {
-//       const tabId = tab.getAttribute('data-tab');
-
-//       // 탭 비활성화 !!!
-//       tabs.forEach(t => {
-//         t.classList.remove('active');
-//       });
-
-//       // 탭 내용 비활성화 !!!
-//       tabContents.forEach(content => {
-//         content.classList.remove('active');
-//       });
-
-//       // 클릭한 탭 활성화 !!!
-//       tab.classList.add('active');
-
-//       //  tab-conten 활성화 !!!
-//       const tabContent = document.getElementById(tabId);
-//       tabContent.classList.add('active');
-//     });
-//   });
+// ico_menu.addEventListener("click", () => {
+//   document.
 // });
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const tabs = document.querySelectorAll('.tab');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      s;
+      const tabId = tab.getAttribute('data-tab');
+
+      // 탭 비활성화 !!!
+      tabs.forEach(t => {
+        t.classList.remove('active');
+      });
+
+      // 탭 내용 비활성화 !!!
+      tabContents.forEach(content => {
+        content.classList.remove('active');
+      });
+
+      // 클릭한 탭 활성화 !!!
+      tab.classList.add('active');
+
+      //  tab-conten 활성화 !!!
+      const tabContent = document.getElementById(tabId);
+      tabContent.classList.add('active');
+    });
+  });
+});
 
 
 
