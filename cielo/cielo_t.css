@@ -22,6 +22,10 @@ header .submenu {
   gap: 25px;
   font-size: 0.75rem;
 }
+.sec01 {
+  padding-top: 206px
+}
+
 .sec02,
 .sec03,
 .sec04,

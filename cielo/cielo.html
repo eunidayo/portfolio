@@ -26,21 +26,26 @@
             search
           </span>
         </div>
-        <div class="submenu">
-          <span>JOIN</span>
-          <span>LOGIN</span>
-          <span>ORDER</span>
-
-          <span class="board_ico">
-            <span>BOARD</span>
-            <span class="material-symbols-outlined ico_arrow_drop_down">
-              arrow_drop_down
-            </span></span>
-        </div>
+        <ul class="submenu">
+          <li><a href="#">JOIN</a></li>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">ORDER</a></li>
+          <li><a href="#">BOARD</a>
+            <ul class="sub_menu">
+              <li> <a href="#">공지사항</a></li>
+              <li><a href="#">상품 Q&A</a></li>
+              <li><a href="#">자유게시판</a></li>
+            </ul>
+          </li>
+          <li class="material-symbols-outlined ico_arrow_drop_down">
+            <a href="#">arrow_drop_down</a>
+          </li>
+        </ul>
       </div>
 
       <div class="submenu02">
-        <ul class="menu">
+        <ul id="menu">
+          <li class="material-symbols-outlined ico_close">close</li>
           <li><a href="#">BEST</a>
           </li>
 
@@ -49,25 +54,28 @@
 
           <li><a href="#">OUTER</a>
             <ul class="sub_menu">
-              <li> <a href="#">메뉴01</a></li>
-              <li><a href="#">메뉴02</a></li>
-              <li><a href="#">메뉴03</a></li>
+              <li> <a href="#">JACKET</a></li>
+              <li><a href="#">CARDIGAN</a></li>
+              <li><a href="#">COAT</a></li>
+              <li><a href="#">PADING</a></li>
             </ul>
           </li>
 
           <li><a href="#">TOP</a>
             <ul class="sub_menu">
-              <li> <a href="#">메뉴01</a></li>
-              <li><a href="#">메뉴02</a></li>
-              <li><a href="#">메뉴03</a></li>
+              <li> <a href="#">T-SHIRT</a></li>
+              <li><a href="#">SHIRT/BLOUSE</a></li>
+              <li><a href="#">KNIT</a></li>
+              <li><a href="#">HOODIE/</a></li>
             </ul>
           </li>
 
           <li><a href="#">BOTTOM</a>
             <ul class="sub_menu">
-              <li> <a href="#">메뉴01</a></li>
-              <li><a href="#">메뉴02</a></li>
-              <li><a href="#">메뉴03</a></li>
+              <li> <a href="#">DENIM</a></li>
+              <li><a href="#">SLACKS</a></li>
+              <li><a href="#">SHORTS</a></li>
+              <li><a href="#">TRAINING</a></li>
             </ul>
           </li>
 
@@ -80,20 +88,28 @@
           </li>
 
           <li><a href="#">SHOES</a>
-            <ul class="sub_menu">
+            <!-- <ul class="sub_menu">
               <li> <a href="#">메뉴01</a></li>
               <li><a href="#">메뉴02</a></li>
               <li><a href="#">메뉴03</a></li>
-            </ul>
+            </ul> -->
           </li>
 
           <li><a href="#">ACC</a>
-            <ul class="sub_menu">
+            <!-- <ul class="sub_menu">
               <li> <a href="#">메뉴01</a></li>
               <li><a href="#">메뉴02</a></li>
               <li><a href="#">메뉴03</a></li>
-            </ul>
+            </ul> -->
           </li>
+          <!-- <div class="menu_bottom">
+            <li>
+              <a href="#">고객센터</a>
+            </li>
+            <li>
+              <a href="#">이용안내</a>
+            </li>
+          </div> -->
         </ul>
 
         <div class="submenu03">
@@ -103,6 +119,8 @@
         </div>
       </div>
     </div>
+
+
   </header>
 
   <main>
@@ -130,11 +148,11 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
-      <div class="color01">
+      <!-- <div class="color01">
         <span>01</span>
         <span>02</span>
         <span>03</span>
-      </div>
+      </div> -->
     </section>
 
 
@@ -149,7 +167,6 @@
             <div class="swiper-slide"><img src="/portfolio/cielo/images/sec02/sec02-2.png.png" alt="sec02-2"></div>
 
           </div>
-          <!-- <div class="swiper-pagination"></div> -->
         </div>
       </div>
     </section>
@@ -407,7 +424,33 @@
       </div>
     </div>
 
-    <div class="tab-menu">
+
+
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/portfolio/cielo/cielo.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 탭 메뉴 -->
+<!-- <div class="tab-menu">
       <div class="tab" data-tab="tab1">BEST</div>
       <div class="tab" data-tab="tab2">NEW</div>
       <div class="tab" data-tab="tab3">OUTER</div>
@@ -429,21 +472,4 @@
         <li><a href="#">02</a></li>
         <li><a href="#">03</a></li>
       </ul>
-    </div>
-
-  </footer>
-
-  <!-- 탭 메뉴 -->
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="/portfolio/cielo/cielo.js"></script>
-</body>
-
-</html>
+    </div> -->

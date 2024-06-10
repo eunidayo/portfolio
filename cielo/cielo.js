@@ -1,3 +1,18 @@
+const ico_menu = document.querySelector(".ico_menu");
+const menu = document.querySelector("#menu");
+const ico_close = document.querySelector(".ico_close");
+
+
+ico_menu.addEventListener("click", () => {
+  // menu.classList.toggle("show-menu");
+  menu.style.transform = 'translateX(0%)';
+});
+
+ico_close.addEventListener("click", () => {
+  // menu.classList.toggle("show-menu");
+  menu.style.transform = 'translateX(-100%)';
+});
+
 
 // sec01
 var swiper = new Swiper(".mySwiper", {
@@ -21,7 +36,7 @@ var swiper = new Swiper(".sec02mySwiper", {
   slidesPerView: 2,
   spaceBetween: 50,
   breakpoints: {
-    800: {
+    799: {
       slidesPerView: 3,
       spaceBetween: 50,
     },
@@ -43,39 +58,36 @@ var swiper = new Swiper(".sec02mySwiper", {
 
 
 
-ico_menu.addEventListener("click", () => {
-  document.
-});
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  const tabs = document.querySelectorAll('.tab');
-  const tabContents = document.querySelectorAll('.tab-content');
+// document.addEventListener("DOMContentLoaded", function () {
+//   const tabs = document.querySelectorAll('.tab');
+//   const tabContents = document.querySelectorAll('.tab-content');
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      s;
-      const tabId = tab.getAttribute('data-tab');
+//   tabs.forEach(tab => {
+//     tab.addEventListener('click', () => {
+//       s;
+//       const tabId = tab.getAttribute('data-tab');
 
-      // 탭 비활성화 !!!
-      tabs.forEach(t => {
-        t.classList.remove('active');
-      });
+//       // 탭 비활성화 !!!
+//       tabs.forEach(t => {
+//         t.classList.remove('active');
+//       });
 
-      // 탭 내용 비활성화 !!!
-      tabContents.forEach(content => {
-        content.classList.remove('active');
-      });
+//       // 탭 내용 비활성화 !!!
+//       tabContents.forEach(content => {
+//         content.classList.remove('active');
+//       });
 
-      // 클릭한 탭 활성화 !!!
-      tab.classList.add('active');
+//       // 클릭한 탭 활성화 !!!
+//       tab.classList.add('active');
 
-      //  tab-conten 활성화 !!!
-      const tabContent = document.getElementById(tabId);
-      tabContent.classList.add('active');
-    });
-  });
-});
+//       //  tab-conten 활성화 !!!
+//       const tabContent = document.getElementById(tabId);
+//       tabContent.classList.add('active');
+//     });
+//   });
+// });
 
 
 
