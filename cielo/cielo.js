@@ -1,17 +1,37 @@
-const ico_menu = document.querySelector(".ico_menu");
+// #menu - H
 const menu = document.querySelector("#menu");
-const ico_close = document.querySelector(".ico_close");
 
-
-ico_menu.addEventListener("click", () => {
+const ico_menu_H = document.querySelector(".ico_menu");
+ico_menu_H.addEventListener("click", () => {
   // menu.classList.toggle("show-menu");
   menu.style.transform = 'translateX(0%)';
 });
-
-ico_close.addEventListener("click", () => {
+const ico_close_H = document.querySelector(".ico_close");
+ico_close_H.addEventListener("click", () => {
   // menu.classList.toggle("show-menu");
   menu.style.transform = 'translateX(-100%)';
 });
+
+
+
+const navsearch = document.querySelector(".navSearch");
+
+const ico_search_N = document.querySelector(".submenu03 .ico_search");
+ico_search_N.addEventListener("click", () => {
+  navsearch.style.display = "flex";
+});
+
+const ico_close = document.querySelector(".ico_close01");
+ico_close.addEventListener("click", () => {
+  navsearch.style.transform = 'translateY(-100%)';
+});
+
+
+const ico_search = document.querySelector(".submenu01 .ico_search");
+ico_search.addEventListener("click", () => {
+  navsearch.style.display = "flex";
+});
+
 
 
 // sec01

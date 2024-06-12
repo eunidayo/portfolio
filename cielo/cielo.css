@@ -16,8 +16,49 @@
   /* min-width: 1024px; */
   outline: 0.1px solid rgb(255, 213, 221);
 }
-.ico_menu,
-.ico_search {
+.navSearch {
+  display: none;
+  width: 100%;
+  height: 65%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #fbfbfb;
+  gap: 25%;
+}
+.navSearch .input_search {
+  border: none;
+  border-bottom: 1px solid;
+  width: 65%;
+  height: 7%;
+  background-color: #fbfbfb;
+}
+.navSearch .ico_close01 {
+  position: relative;
+  right: -46%;
+  top: 7%;
+  font-size: 2.5rem;
+  color: #303030;
+  cursor: pointer;
+}
+.navSearch .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navSearch .ico_search01 {
+  position: relative;
+  top: -30%;
+  right: -32%;
+  font-size: 2rem;
+}
+
+.navSearch .ico_menu,
+.submenu01 .ico_search {
   display: none;
 }
 a {
@@ -68,7 +109,10 @@ header {
   gap: 150px;
   justify-content: flex-end;
 }
-header a.logo {
+.submenu01 .ico_menu {
+  display: none;
+}
+header .submenu01 .logo {
   background: url(/portfolio/cielo/images/CIELO\ logo.png)50% 50% no-repeat;
   width: 97px;
   height: 46px;
@@ -77,6 +121,10 @@ header a.logo {
   text-indent: -9000px;
   overflow: hidden;
 }
+header .submenu02 .logo02 {
+  display: none;
+}
+
 header .submenu {
   display: flex;
   gap: 15px;
@@ -94,6 +142,9 @@ header .submenu {
   justify-content: space-between;
   font-size: 1rem;
 }
+.submenu02 .Msubmenu {
+  display: none;
+}
 .submenu02 a {
   font-size: 0.9375rem;
 }
@@ -102,7 +153,10 @@ header .submenu {
   display: flex;
   gap: inherit;
 }
-.ico_close {
+.submenu02 .ico_close {
+  display: none;
+}
+header .submenu02 menu .logo {
   display: none;
 }
 .sub_menu {
@@ -136,9 +190,6 @@ header .submenu {
 li:hover .sub_menu {
   display: block;
 }
-#menu .menu_bottom {
-  display: none;
-}
 .submenu03 {
   display: flex;
   gap: 25px;
@@ -146,11 +197,6 @@ li:hover .sub_menu {
   color: #303030;
   cursor: pointer;
 }
-
-
-
-
-
 
 
 /* main */
@@ -183,14 +229,6 @@ body {
   height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 5px));
   border-radius: var(--swiper-pagination-bullet-border-radius, 0%);
 }
-/* .sec01 .color01 {
-  position: absolute;
-  left: 28%;
-  top: 22%;
-  flex-direction: column;
-  z-index: 1;
-} */
-
 .sec01 {
   padding-top: 220px;
   display: flex;
@@ -215,9 +253,6 @@ body {
 .sec02 h2 {
   text-align: center;
 }
-/* .sec02swiper {
-  height: 400px;
-} */
 
 .sec02mySwiper > swiper-slide {
   text-align: center;
@@ -227,25 +262,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .sec02mySwiper .swiper-slide img {
   display: block;
   width: 100%;
   /* height: 100%; */
   object-fit: fill;
 }
-
 .sec02inner,
 .sec03inner {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
-
-
 .sec03 h2 {
-  /* background-color: #FBFBFB; */
   text-align: center;
 }
 /* sec03, */
@@ -292,7 +321,6 @@ body {
   width: 15px;
   height: 15px;
 }
-
 .color01 span:first-child {
   background-color: aquamarine;
 }
@@ -309,11 +337,6 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-
-
-
-
-
 
 
 
@@ -346,12 +369,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 .footfirst {
   display: flex;
   justify-content: space-between;
-
 }
 .footmiddle,
 .footright {

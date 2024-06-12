@@ -4,10 +4,9 @@ body {
   /* width: 744px; */
 }
 * {
-  outline: 1px solid greenyellow;
+  outline: 1px solid rgb(107, 100, 199);
 }
 header {
- min-width: 744px;
   height: 104px;
   padding: 20px 23px;
   align-items: flex-start;
