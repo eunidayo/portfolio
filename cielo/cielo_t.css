@@ -4,7 +4,7 @@ body {
 }
 * {
   /* min-width: 1024px; */
-  outline: 0.1px solid rgb(167, 20, 204);
+  /* outline: 0.1px solid rgb(167, 20, 204); */
 }
 /* header */
 .header.inner {
@@ -17,6 +17,12 @@ header .submenu {
 }
 .menu li {
   padding: 5px 13px;
+}
+.submenu01 .ico_arrow_drop_down {
+  top: -8%;
+  position: relative;
+  right: -574%;
+  font-size: 1rem;
 }
 .submenu02 a {
   gap: 25px;

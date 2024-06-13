@@ -17,8 +17,6 @@ ico_close_H.addEventListener("click", () => {
 
 
 
-
-
 // .navSearch 
 const navsearch = document.querySelector(".navSearch");
 
@@ -42,47 +40,6 @@ ico_close.addEventListener("click", () => {
 
 
 
-
-
-// .loginM
-const wrapper = document.querySelector(".wrapper");
-
-//PC(M-.login")
-const login = document.querySelector(".submenu01 .submenu .login");
-login.addEventListener("click", () => {
-  wrapper.style.display = "flex";
-});
-
-
-
-// //PC(M-.ico_close02")
-// const ico_closseM = document.querySelector(".ico_close02");
-// ico_closseM.addEventListener("click", () => {
-//   loginM.style.transform = 'translateY(-100%)';
-// });
-
-
-
-const signUpBtn = document.getElementById("signUp");
-const signInBtn = document.getElementById("signIn");
-const container = document.querySelector(".container");
-
-signUpBtn.addEventListener("click", () => {
-  container.classList.add("right-panel-active");
-});
-signInBtn.addEventListener("click", () => {
-  container.classList.remove("right-panel-active");
-});
-
-
-
-
-
-
-
-
-
-
 // sec01
 var swiper = new Swiper(".mySwiper", {
   zoom: true,
@@ -99,6 +56,8 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false
   }
 });
+
+
 
 // sec02
 var swiper = new Swiper(".sec02mySwiper", {
@@ -127,36 +86,62 @@ var swiper = new Swiper(".sec02mySwiper", {
 
 
 
+const signUpBtn = document.getElementById("signUp");
+const signInBtn = document.getElementById("signIn");
+const container = document.querySelector(".container");
+
+signUpBtn.addEventListener("click", () => {
+  container.classList.add("right-panel-active");
+});
+signInBtn.addEventListener("click", () => {
+  container.classList.remove("right-panel-active");
+});
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const tabs = document.querySelectorAll('.tab');
-//   const tabContents = document.querySelectorAll('.tab-content');
 
-//   tabs.forEach(tab => {
-//     tab.addEventListener('click', () => {
-//       s;
-//       const tabId = tab.getAttribute('data-tab');
 
-//       // 탭 비활성화 !!!
-//       tabs.forEach(t => {
-//         t.classList.remove('active');
-//       });
+// .loginM
+const wrapper = document.querySelector(".wrapper");
 
-//       // 탭 내용 비활성화 !!!
-//       tabContents.forEach(content => {
-//         content.classList.remove('active');
-//       });
+//PC(M-.login")
+const login = document.querySelector(".submenu01 .submenu .login");
+login.addEventListener("click", () => {
+  wrapper.style.display = "flex";
+});
 
-//       // 클릭한 탭 활성화 !!!
-//       tab.classList.add('active');
+const ico_close02 = document.querySelector(".wrapper .ico_close02");
+ico_close02.addEventListener("click", () => {
+  wrapper.style.transform = 'translateY(-100%)';
+});
 
-//       //  tab-conten 활성화 !!!
-//       const tabContent = document.getElementById(tabId);
-//       tabContent.classList.add('active');
-//     });
-//   });
-// });
+const ico_close03 = document.querySelector(".wrapper .ico_close03");
+ico_close03.addEventListener("click", () => {
+  wrapper.style.transform = 'translateY(-100%)';
+});
+
+
+//MOBILE(M-.login")
+const login02 = document.querySelector(".submenu02 .login02");
+login02.addEventListener("click", () => {
+  wrapper.style.display = "flex";
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
