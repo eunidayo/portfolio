@@ -140,11 +140,12 @@ body {
   display: flex;
   gap: 15px;
   padding: 1% 12.5%;
-  width: 100%;
+  /* width: 100%; */
 }
 .sec02 .sec02inner img,
 .sec04 .sec04inner img {
-  width: 100%;
+  /* width: 100%; */
+  flex: 1;
 }
 
 

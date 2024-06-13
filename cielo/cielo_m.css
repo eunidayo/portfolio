@@ -6,7 +6,7 @@
 }
 * {
   /* min-width: 1024px; */
-  /* outline: 0.1px solid rgb(128, 183, 255); */
+  outline: 0.1px solid rgb(128, 183, 255);
   outline: none;
 }
 .navSearch {
@@ -26,6 +26,11 @@
   top: -35%;
   right: -31%;
 }
+
+.navSearch .ico_close01 {
+  top: 17%;
+}
+
 .submenu01 .material-symbols-outlined01 {
   display: flex;
   width: 100%;
