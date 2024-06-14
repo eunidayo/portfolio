@@ -43,10 +43,10 @@ header .headerinner {
 }
 
 header a.logo {
-  background: url(/portfolio/clone/avorn/images/header/avornlogo.png)50% 50% no-repeat;
+  background: url(/portfolio/clone/avorn/images/header/avornlogo.png) no-repeat 50% 50%/contain;
   width: 293px;
   height: 102px;
-  background-size: contain;
+  /* background-size: contain; */
   display: block;
   text-indent: -9000px;
   overflow: hidden;
@@ -156,7 +156,7 @@ body {
 }
 .sec03 .sec03inner {
   display: flex;
-  flex-direction: ;
+  /* flex-direction: ; */
 }
 
 

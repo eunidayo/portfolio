@@ -431,8 +431,7 @@ body {
 .sec01 {
   padding-top: 220px;
   display: flex;
-  background: url(/portfolio/cielo/images/1a841627a76148a344d26c811bf48241\ 1.png);
-  object-fit: contain;
+  background: url(/portfolio/84d5982f9ed2bdbea0cb3c07a553147d.jpg) no-repeat 100%/cover;
 }
 .sec01 img {
   object-fit: cover;
