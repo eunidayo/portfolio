@@ -4,6 +4,7 @@
   font-variation-settings:
     'wght' 200
 }
+
 * {
   /* min-width: 1024px; */
   outline: 0.1px solid rgb(128, 183, 255);
