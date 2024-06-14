@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 구글아이콘 (google font */
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
@@ -297,6 +298,12 @@ header {
   gap: 150px;
   justify-content: flex-end;
 }
+/* .submenu01 .submenu li:after {
+  content: " ";
+  border-right: 1px solid #303030;
+
+} */
+
 .submenu01 .ico_menu {
   display: none;
 }
@@ -397,7 +404,7 @@ body {
   position: relative;
 }
 body {
-  background-color: #FBFBFB;
+  /* background-color: #FBFBFB; */
   margin: 0;
   padding: 0;
 }
@@ -423,6 +430,8 @@ body {
 .sec01 {
   padding-top: 220px;
   display: flex;
+  background: url(/portfolio/cielo/images/1a841627a76148a344d26c811bf48241\ 1.png);
+  object-fit: contain;
 }
 .sec01 img {
   object-fit: cover;
@@ -525,7 +534,7 @@ body {
 
 /* footer */
 #footer {
-  background: #fff;
+  background-color: #FBFBFB;
   display: flex;
   align-items: center;
   padding: 150px 0 50px 0;
