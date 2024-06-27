@@ -29,6 +29,10 @@
 .navSearch .ico_close01 {
   top: 17%;
 }
+.container {
+  width: 100%;
+  min-height: 60%;
+}
 form h1 {
   font-size: 1.5rem;
 }

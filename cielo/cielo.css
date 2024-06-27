@@ -389,6 +389,10 @@ header .submenu02 menu .logo {
 li:hover .sub_menu {
   display: block;
 }
+
+.ico_arrow_drop_down:hover .sub_menu {
+  display: block;
+}
 .submenu03 {
   display: flex;
   gap: 25px;
@@ -431,7 +435,7 @@ body {
 .sec01 {
   padding-top: 220px;
   display: flex;
-  background: url(/portfolio/84d5982f9ed2bdbea0cb3c07a553147d.jpg) no-repeat 100%/cover;
+  background: url(/portfolio/cielo/images/sec01/sec01_background.png) no-repeat 100%/cover;
 }
 .sec01 img {
   object-fit: cover;
